@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         String[] labels = {"MA5", "MA10", "MA20"};
         Legend legend = mChart.getLegend();
         legend.setCustom(colors, labels);
-        legend.setPosition(Legend.LegendPosition.ABOVE_CHART_RIGHT);
+        legend.setPosition(Legend.LegendPosition.ABOVE_CHART_LEFT);
         legend.setTextColor(Color.WHITE);
 
         mChart.setOnChartValueSelectedListener(new OnChartValueSelectedListener() {
